@@ -27,12 +27,13 @@
 }
 
 .navbar a {
-  padding-top: 10px;
+  align-items: center;
   position: relative;
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   color: #ffffff;
+  display: flex;
 }
 
 .navlink-wrapper {
@@ -52,7 +53,7 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
@@ -61,8 +62,8 @@
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
-  color: #1C1C1C;
-  background-color: #CAFF33;
+  color: #1c1c1c;
+  background-color: #caff33;
   border-radius: 82px;
   cursor: pointer;
 }

@@ -121,7 +121,7 @@ body {
 .product-header-content h2 {
   width: 831px;
   height: 57px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 38px;
   font-weight: 500;
   line-height: 150%;
@@ -133,7 +133,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 150%;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
 .product-header-img {
@@ -155,7 +155,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -163,7 +163,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
-  color: #B3B3B3;
+  color: #b3b3b3;
   min-height: 104px;
   max-height: 104px;
   overflow: visible;
@@ -176,7 +176,9 @@ body {
   align-items: center;
 }
 
-.product-1, .product-2, .product-3 {
+.product-1,
+.product-2,
+.product-3 {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -186,4 +188,8 @@ body {
 .border {
   border: 1px solid #262626;
   height: 285px;
+}
+
+@media (max-width: 1024px) {
+  
 }

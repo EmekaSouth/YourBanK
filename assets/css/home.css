@@ -24,7 +24,7 @@ body {
 
 .hero-section {
   display: flex;
-  width: 1440px;
+  width: 100%;
   height: 621px;
   gap: 100px;
   padding: 60px 200px 60px 70px;
@@ -33,7 +33,7 @@ body {
 }
 
 .hero-content {
-  margin-left: 40px;
+  margin-left: 45px;
   margin-top: 35px;
 }
 
@@ -105,7 +105,7 @@ body {
 }
 
 .product-header {
-  width: 1280px;
+  width: 100%;
   height: 115px;
   display: flex;
   padding: 60px 200px 60px 70px;
@@ -115,7 +115,7 @@ body {
 }
 
 .product-header-content {
-  margin-left: 40px;
+  margin-left: 45px;
 }
 
 .product-header-content h2 {

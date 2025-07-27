@@ -187,3 +187,7 @@ body {
   border: 1px solid #262626;
   height: 285px;
 }
+
+@media (max-width: 1024px) {
+  
+}

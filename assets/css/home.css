@@ -214,7 +214,11 @@ body {
 .cases-section{
   width: 1,280px;
   height: 457px;
-  margin-left: 90px;
+}
+
+.cases-content{
+  margin-left: 110px;
+  margin-top: 60px;
 }
 
 .cases-header{
@@ -244,6 +248,7 @@ body {
   line-height: 150%;
   letter-spacing: 0%;
   color: #B3B3B3;
+ 
 }
 
 .home{
@@ -252,6 +257,8 @@ body {
   width: 1280px;
   height: 868px;
   gap: 40px;
+  margin-left: 110px;
+  margin-top: 20px;
 }
 
 
@@ -473,6 +480,11 @@ body {
   border-radius: 82px;
   border: 1px solid #262626;
   padding: 14px 20px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
 }
 
 .business-icon{

@@ -94,7 +94,7 @@ body {
   background-color: #caff33;
   color: #1c1c1c;
   border-radius: 82px;
-  font-size: 400;
+  font-weight: 400;
   font-size: 14px;
   gap: 10px;
 }
@@ -147,7 +147,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 6rem;
-  margin-left: 50px;
+  margin-left: 43px;
   gap: 40px;
 }
 
@@ -177,6 +177,8 @@ body {
 }
 
 .product-1, .product-2, .product-3 {
+  width: 373px;
+  height: 262px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -188,28 +190,9 @@ body {
   height: 285px;
 }
 
-@media (max-width: 1024px) {
-  body{
-    width: 1024px;
-  }
-  
-  .hero-section {
-  width: 1024px;
-  height: 621px;
-}
-
-.hero-content {
-  margin-left: 0px;
-  margin-top: 35px;
-}
-
-.product-section {
-  width: 1024px;
-  min-height: 500px;
-}
+/* End Of South's First Sections, Start Of Miracle's First Sections */
 
 
-}
 
 .cases-section{
   width: 1,280px;
@@ -226,6 +209,7 @@ body {
   height: 91px;
   gap: 10px;
   padding-right: 250px;
+  margin-bottom: 3rem;
 }
 
 .cases-header h3{
@@ -260,8 +244,6 @@ body {
   margin-left: 110px;
   margin-top: 20px;
 }
-
-
 
 .cases-icon-div{
   width: 610px;
@@ -402,6 +384,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
+  cursor: pointer;
 }
 
 .business-header{
@@ -485,6 +468,7 @@ body {
   line-height: 150%;
   letter-spacing: 0%;
   color: #FFFFFF;
+  cursor: pointer;
 }
 
 .business-icon{
@@ -519,4 +503,27 @@ body {
   letter-spacing: 0%;
   color: #FFFFFF;
   text-align: center;
+}
+
+@media (max-width: 1024px) {
+  body{
+    width: 1024px;
+  }
+  
+  .hero-section {
+  width: 1024px;
+  height: 621px;
+}
+
+.hero-content {
+  margin-left: 0px;
+  margin-top: 35px;
+}
+
+.product-section {
+  width: 1024px;
+  min-height: 500px;
+}
+
+
 }

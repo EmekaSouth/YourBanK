@@ -594,7 +594,7 @@ body {
   border: 1px solid #262626;
   border-radius: 68px;
   background-color: #1a1a1a;
-  color: #B3B3B3;
+  color: #b3b3b3;
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
@@ -608,7 +608,7 @@ body {
   border: 1px solid #262626;
   border-radius: 68px;
   background-color: #1a1a1a;
-  color: #B3B3B3;
+  color: #b3b3b3;
   font-size: 16px;
   font-weight: 300;
   line-height: 150%;
@@ -649,14 +649,13 @@ body {
 
 .reqs-container {
   display: inline;
-  
 }
 
 .job {
   width: 522px;
   display: inline-flex;
   align-items: center;
-  color: #B3B3B3;
+  color: #b3b3b3;
   gap: 8px;
   margin-bottom: 16px;
   font-weight: 300;
@@ -678,4 +677,3 @@ body {
   font-size: 14px;
   gap: 10px;
 }
-

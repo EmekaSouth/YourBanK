@@ -1,0 +1,137 @@
+
+.footer{
+  width: 100%;
+  height: 440px;
+  background-color: #1C1C1C;
+  padding-top: 60px;
+  padding-right: 80px;
+  padding-bottom: 30px;
+  padding-left: 80px;
+  gap: 40px;
+  margin-top: 153px;
+}
+
+.footer-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-nav{
+  margin-top: 3rem;
+}
+
+.footer-nav ul{
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
+.footer-nav li a{
+  font-weight: 400;
+  font-style: regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #E4E4E7;
+}
+
+.footer-line{
+  width: 1280px;
+  border: 1px solid #262626;
+  display: flex;
+  margin-top: 2rem;
+}
+
+.footer-wrapper-1{
+  width: 1280px;
+  height: 24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 20px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.footer-wrapper-2{
+  display: flex;
+  border-radius: 6px;
+  gap: 6px;
+}
+
+.footer-wrapper-2 p{
+  font-weight: 400;
+  font-style: regular;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #E4E4E7;
+}
+
+.footer-wrapper-3{
+  width: 1280px;
+  height: 68px;
+  border-radius: 100px;
+  border: 1px solid #262626;
+  padding: 12px 24px 12px 12px;
+  background-color: #1A1A1A;
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-content{
+  width: 148px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.footer-content-1{
+  width: 44px;
+  height: 44px;
+  border-radius: 100px;
+  padding: 12px;
+  gap: 10px;
+  background-color: #CAFF33;
+}
+
+.footer-wrapper-4{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.footer-wrapper-4 p{
+  font-weight: 300;
+  font-style: light;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #B3B3B3;
+}
+
+.footer-wrapper-5{
+  display: flex;
+  align-items: center;
+}
+
+.footer-wrapper-5 p{
+  font-weight: 300;
+  font-style: light;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #B3B3B3;
+  align-items: center;
+  display: flex;
+}
+
+.footer-line-1{
+  width: 21px;
+  height: 0px;
+  border: 1px solid #B3B3B3;
+  transform: rotate(-90deg);
+}

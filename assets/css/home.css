@@ -147,7 +147,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 3rem 6rem;
-  margin-left: 43px;
+  margin-left: 35px;
   gap: 40px;
 }
 
@@ -160,13 +160,11 @@ body {
 }
 
 .products p {
-  font-weight: 400;
+  font-weight: 300;
   font-size: 16px;
   line-height: 150%;
   color: #B3B3B3;
-  min-height: 104px;
-  max-height: 104px;
-  overflow: visible;
+  width: 373px;
 }
 
 .products img {

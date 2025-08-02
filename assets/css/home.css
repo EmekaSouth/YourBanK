@@ -495,7 +495,6 @@ body {
 
 .business-image p{
   font-weight: 400;
-  font-style: regular;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
@@ -508,7 +507,8 @@ body {
   height: 649px;
   gap: 60px;
   margin-left: 7%;
-  margin-top: 42rem
+  margin-top: 42rem;
+  margin-bottom: 100px;
 }
 
 .features-header{

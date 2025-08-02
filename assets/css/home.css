@@ -503,6 +503,145 @@ body {
   text-align: center;
 }
 
+.features-section{
+  width: 1280px;
+  height: 649px;
+  gap: 60px;
+  margin-left: 7%;
+  margin-top: 42rem
+}
+
+.features-header{
+  width: 1280px;
+  height: 115px;
+  padding-right: 250px;
+  gap: 10px;
+}
+
+.features-header h3{
+  width: 1030px;
+  height: 57px;
+  font-weight: 500;
+  font-style: medium;
+  font-size: 38px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+
+.features-header h3 span{
+  color: #CAFF33;
+}
+
+.features-header p{
+  width: 1030px;
+  height: 48px;
+  font-weight: 300;
+  font-style: light;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #B3B3B3;
+}
+
+.features-container{
+  width: 1280px;
+  height: 474px;
+  margin-top: 4rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.features-wrapper{
+  width: 245px;
+  height: 267px;
+  border-radius: 10px;
+  padding: 40px;
+  gap: 20px;
+  background-color: #1C1C1C;
+  display: flex;
+  flex-direction: column;
+}
+
+.features-button-1{
+  width: 167px;
+  height: 49px;
+  border-radius: 100px;
+  border: 1px solid #262626;
+  padding: 14px 20px 14px 20px;
+  background-color: #1A1A1A;
+  gap: 10px;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #CAFF33;
+}
+
+.features-button{
+  width: 167px;
+  height: 49px;
+  border-radius: 100px;
+  border: 1px solid #262626;
+  padding: 14px 20px;
+  background-color: #1A1A1A;
+  font-weight: 400;
+  font-style: regular;
+  font-size: 14px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.features-container-1{
+  width: 1015px;
+  height: 474px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.features-wrapper-1{
+  width: 497.5px;
+  height: 227px;
+  border-radius: 10px;
+  border: 1px solid #262626;
+  padding: 40px;
+  gap: 24px;
+  background-color: #1C1C1C;
+}
+
+.features-span{
+  width: 417.5px;
+  height: 27px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.features-span h3{
+  font-weight: 400;
+  font-style: regular;
+  font-size: 18px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+
+.features-wrapper-1 p{
+  width: 417.5px;
+  height: 96px;
+  font-weight: 300;
+  font-style: light;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: -0.6%;
+  color: #B3B3B3;
+}
+
 @media (max-width: 1024px) {
   body{
     width: 1024px;

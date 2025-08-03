@@ -1,8 +1,9 @@
 .faq-section {
   width: 1279px;
-  height: 810px;
+  min-height: 810px;
   margin-left: 7%;
-  margin-bottom: 700px;
+  margin-bottom: 150px;
+  transition: all 0.5s ease;
 }
 
 .faq-sect-header {
@@ -65,6 +66,37 @@ a {
   gap: 24px;
 }
 
+/* Show just a bit of the last visible FAQ */
+.faq-box:nth-child(3),
+.faq-box:nth-child(4) {
+  position: relative;
+}
+
+.faq-box:nth-child(3),
+.faq-box:nth-child(4) {
+  position: relative;
+  border-bottom: 1px solid transparent;
+}
+
+.faq-box:nth-child(3)::after,
+.faq-box:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    rgba(26, 26, 26, 0.3),
+    rgba(26, 26, 26, 0.9)
+  );
+  pointer-events: none;
+  border-radius: 0 0 10px 10px;
+  z-index: 1;
+  backdrop-filter: blur(2px);
+}
+
 .faq-content {
   margin-top: 5px;
   padding: 40px;
@@ -86,4 +118,71 @@ a {
   font-size: 16px;
   line-height: 150%;
   color: #b3b3b3;
+}
+
+/* Hide FAQ functionality */
+.hidden-faq {
+  display: block;
+  max-height: 0;
+  overflow: hidden;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+  position: relative;
+}
+
+.hidden-faq::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to bottom, transparent, #1a1a1a);
+  pointer-events: none;
+}
+
+.hide-faqs {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.hide-faqs-btn {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 18px 24px;
+  background-color: transparent;
+  border: 1px solid #262626;
+  border-radius: 82px;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.hide-faqs-btn img {
+  transition: transform 0.3s ease;
+}
+
+.hide-faqs-btn.active img {
+  transform: rotate(180deg);
+}
+
+.hidden-faq.expanded {
+  max-height: 295px;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hidden-faq.expanded::after {
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.faq-section.expanded {
+  min-height: 1200px;
 }

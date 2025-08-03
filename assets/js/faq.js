@@ -2,6 +2,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const hideFaqsBtn = document.querySelector(".hide-faqs-btn");
   const hiddenFaqs = document.querySelectorAll(".hidden-faq");
   const faqSection = document.querySelector(".faq-section");
+  const fourthFaq = document.querySelector(".faq-box:nth-child(4)");
   let isExpanded = false;
 
   hideFaqsBtn.addEventListener("click", function () {

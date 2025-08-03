@@ -2,7 +2,7 @@
   width: 1279px;
   min-height: 810px;
   margin-left: 7%;
-  margin-bottom: 250px;
+  margin-bottom: 150px;
   transition: all 0.5s ease;
 }
 
@@ -66,6 +66,37 @@ a {
   gap: 24px;
 }
 
+/* Show just a bit of the last visible FAQ */
+.faq-box:nth-child(3),
+.faq-box:nth-child(4) {
+  position: relative;
+}
+
+.faq-box:nth-child(3),
+.faq-box:nth-child(4) {
+  position: relative;
+  border-bottom: 1px solid transparent;
+}
+
+.faq-box:nth-child(3)::after,
+.faq-box:nth-child(4)::after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(
+    to bottom,
+    rgba(26, 26, 26, 0.3),
+    rgba(26, 26, 26, 0.9)
+  );
+  pointer-events: none;
+  border-radius: 0 0 10px 10px;
+  z-index: 1;
+  backdrop-filter: blur(2px);
+}
+
 .faq-content {
   margin-top: 5px;
   padding: 40px;
@@ -92,9 +123,9 @@ a {
 /* Hide FAQ functionality */
 .hidden-faq {
   display: block;
-  max-height: 60px;
+  max-height: 0;
   overflow: hidden;
-  opacity: 0.3;
+  opacity: 0;
   transform: translateY(20px);
   transition: all 0.5s ease;
   position: relative;
@@ -126,7 +157,7 @@ a {
   background-color: transparent;
   border: 1px solid #262626;
   border-radius: 82px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-weight: 400;
   font-size: 14px;
   cursor: pointer;

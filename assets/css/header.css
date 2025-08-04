@@ -68,9 +68,73 @@
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+/* Checkbox Hamburger Menu Styles */
+
+.hamburger-container {
+  display: none;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.hamburger-checkbox {
+  display: none;
+}
+
+.hamburger-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 4px;
+  background: #caff33;
+}
+
+.hamburger-label span {
+  width: 100%;
+  height: 1.5px;
+  background-color: #333333;
+  border-radius: 1px;
+  transition: all 0.4s ease;
+  transform-origin: 50% 50%;
+}
+
+/* Hamburger Animation - Updated */
+.hamburger-checkbox:checked ~ .navbar .hamburger-label span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+
+.hamburger-checkbox:checked ~ .navbar .hamburger-label span:nth-child(2) {
+  opacity: 0;
+  /* Middle line just fades out, no scaling */
+}
+
+.hamburger-checkbox:checked ~ .navbar .hamburger-label span:nth-child(3) {
+  transform: rotate(-45deg) translate(5px, -5px);
+}
+
+/* Start of Media Queries */
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: flex;
+  }
+
+  .header-wrapper {
+    padding: 14px 14px 14px 24px;
+    top: 11%;
+    left: 40%;
+    width: 90%;
+    height: 68px;
+    justify-content: center;
+  }
+}
+
+/* @media (max-width: 1024px) {
   .header-wrapper {
     width: 1024px;
     height: 73px;
   }
-}
+} */

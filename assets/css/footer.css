@@ -1,5 +1,6 @@
 .footer{
-  width: 100%;
+  max-width: 1920px;
+  min-width: none;
   height: 440px;
   background-color: #1C1C1C;
   padding-top: 60px;
@@ -36,8 +37,9 @@
   color: #E4E4E7;
 }
 
-.footer-line{
-  width: 1280px;
+.footer-line {
+  max-width: 1596px;
+  min-width: none;
   border: 1px solid #262626;
   display: flex;
   margin-top: 2rem;

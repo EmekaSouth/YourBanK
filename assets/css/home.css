@@ -25,15 +25,15 @@ body {
 .hero-section {
   display: flex;
   width: 1440px;
-  height: 621px;
   gap: 100px;
   padding: 60px 200px 60px 70px;
   margin-top: -280px;
-  margin-bottom: 200px;
+  margin-bottom: 150px;
+  margin-left: 20px;
 }
 
 .hero-content {
-  margin-left: 40px;
+  margin-left: 20px;
   margin-top: 35px;
 }
 
@@ -100,7 +100,8 @@ body {
 }
 
 .product-section {
-  width: 100%;
+  max-width: 1596px;
+  min-width: none;
   min-height: 500px;
 }
 
@@ -188,12 +189,8 @@ body {
   height: 285px;
 }
 
-/* End Of South's First Sections, Start Of Miracle's First Sections */
-
-
-
 .cases-section{
-  width: 1,280px;
+  width: 1280px;
   height: 457px;
 }
 
@@ -203,7 +200,7 @@ body {
 }
 
 .cases-header{
-  width: 1,280px;
+  width: 1280px;
   height: 91px;
   gap: 10px;
   padding-right: 250px;
@@ -249,7 +246,7 @@ body {
   background-color: #1C1C1C;
   border-radius: 20px;
   padding: 40px;
-  gap: 10px;
+  gap: 14px;
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
@@ -258,7 +255,7 @@ body {
   width: 260px;
   height: 174px;
   border-radius: 12px;
-  border: 1px;
+  border: 1px solid #262626;
   padding: 24px;
   gap: 24px;
   background-color: #1A1A1A;
@@ -268,6 +265,7 @@ body {
   flex-direction: column;
   text-align: center;
   position: relative;
+  margin-top: -5px;
 }
 
 .cases-icon img{
@@ -290,13 +288,14 @@ body {
   position: absolute;
   width: 224px;
   height: 213px;
-  left: 50px;
+  left: 100px;
 }
 
 .individual-section{
   width: 610px;
   height: 405px;
   gap: 50px;
+  display: flex;
 }
 
 .Individual-header{
@@ -483,6 +482,7 @@ body {
 .business-image{
   width: 260px;
   height: 174px;
+  border: 1px solid #262626;
   border-radius: 12px;
   padding: 24px;
   gap: 14px;
@@ -491,6 +491,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  margin-top: -5px;
 }
 
 .business-image p{
@@ -642,26 +643,6 @@ body {
   color: #B3B3B3;
 }
 
-
-@media (max-width: 1024px) {
-  body{
-    width: 1024px;
-  }
+@media screen and (max-width: 767px) {
   
-  .hero-section {
-  width: 1024px;
-  height: 621px;
-}
-
-.hero-content {
-  margin-left: 0px;
-  margin-top: 35px;
-}
-
-.product-section {
-  width: 1024px;
-  min-height: 500px;
-}
-
-
 }

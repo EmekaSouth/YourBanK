@@ -642,26 +642,3 @@ body {
   color: #B3B3B3;
 }
 
-
-@media (max-width: 1024px) {
-  body{
-    width: 1024px;
-  }
-  
-  .hero-section {
-  width: 1024px;
-  height: 621px;
-}
-
-.hero-content {
-  margin-left: 0px;
-  margin-top: 35px;
-}
-
-.product-section {
-  width: 1024px;
-  min-height: 500px;
-}
-
-
-}

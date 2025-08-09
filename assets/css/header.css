@@ -246,6 +246,13 @@ body.menu-open {
   }
 }
 
+
+ @media (max-width: 1366px) {
+  .header-wrapper {
+    width: 1120px;
+    height: 65px;
+  }
+}
 @media only screen and (min-width: 768px) {
   .mobile-login-btn {
     display: none !important;
@@ -257,9 +264,3 @@ body.menu-open {
     display: none !important;
   }
 }
-
-/* @media only screen and (max-width: 1024px) {
-  .header-wrapper {
-
-  }
-} */

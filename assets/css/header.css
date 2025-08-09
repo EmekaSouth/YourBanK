@@ -191,21 +191,23 @@ body.menu-open {
 
   .header-wrapper {
     padding: 14px 14px 14px 24px;
-    top: 40;
-    left: 0;
-    right: 0;
-    margin-left: 30px;
-    transform: none;
-    width: 100%;
+    top: 40px;
+    left: 50%;
+    right: auto;
+    margin-left: 0;
+    transform: translateX(-50%);
+    width: calc(100% - 32px);
     min-height: 60px;
     border-radius: 100px;
     box-sizing: border-box;
   }
 
-  body.menu-open .header-wrapper {
+  body.menu-open .header-wrapper,
+  body.menu-active .header-wrapper {
     left: 0;
     right: 0;
     transform: none;
+    margin-left: 0;
     width: 100%;
   }
 

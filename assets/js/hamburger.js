@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   const navLinks = document.querySelectorAll(".nav-links a");
   const closeBtn = document.querySelector(".close-btn");
   const hero = document.querySelector(".hero-section");
+  const body = document.body;
 
   function setOverlayToHero() {
     if (!navOverlay || !hero) return;
@@ -29,6 +30,7 @@ document.addEventListener("DOMContentLoaded", function () {
     navOverlay.style.position = "fixed";
     navOverlay.style.width = "100%";
     navOverlay.style.zIndex = "2000";
+    body.classList.add("menu-active");
   }
 
   function closeMenu() {
@@ -41,6 +43,7 @@ document.addEventListener("DOMContentLoaded", function () {
     navOverlay.style.bottom = "";
     navOverlay.style.height = "";
     navOverlay.style.overflowY = "";
+    body.classList.remove("menu-active");
   }
 
   if (menuToggle) {

@@ -194,6 +194,7 @@ body.menu-open {
     top: 40;
     left: 0;
     right: 0;
+    margin-left: 30px;
     transform: none;
     width: 100%;
     min-height: 60px;
@@ -246,13 +247,6 @@ body.menu-open {
   }
 }
 
-
- @media (max-width: 1366px) {
-  .header-wrapper {
-    width: 1120px;
-    height: 65px;
-  }
-}
 @media only screen and (min-width: 768px) {
   .mobile-login-btn {
     display: none !important;

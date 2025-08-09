@@ -3,34 +3,32 @@ document.addEventListener("DOMContentLoaded", function () {
   const navOverlay = document.querySelector(".nav-links");
   const navLinks = document.querySelectorAll(".nav-links a");
   const closeBtn = document.querySelector(".close-btn");
-  const headerWrapper = document.querySelector(".header-wrapper");
-  const body = document.body;
+  const hero = document.querySelector(".hero-section");
 
-  function positionOverlay() {
-    if (!navOverlay) return;
-    let topOffset = 0;
-    if (headerWrapper) {
-      const rect = headerWrapper.getBoundingClientRect();
-      topOffset = rect.top + rect.height;
-      if (topOffset < 0) topOffset = 0; // clamp when header scrolled out
-    }
-    navOverlay.style.top = topOffset + "px";
+  function setOverlayToHero() {
+    if (!navOverlay || !hero) return;
+    const rect = hero.getBoundingClientRect();
+    // Height from top of viewport to the bottom of the hero
+    let height = Math.min(
+      window.innerHeight,
+      Math.max(0, Math.round(rect.bottom))
+    );
+    navOverlay.style.top = "0";
     navOverlay.style.left = "0";
     navOverlay.style.right = "0";
-    navOverlay.style.bottom = "0";
-    navOverlay.style.height = "";
+    navOverlay.style.bottom = "";
+    navOverlay.style.height = height + "px";
     navOverlay.style.overflowY = "auto";
     navOverlay.style.webkitOverflowScrolling = "touch";
   }
 
   function openMenu() {
     if (!navOverlay) return;
-    positionOverlay();
+    setOverlayToHero();
     navOverlay.style.display = "flex";
     navOverlay.style.position = "fixed";
     navOverlay.style.width = "100%";
     navOverlay.style.zIndex = "2000";
-    body.style.overflow = "hidden";
   }
 
   function closeMenu() {
@@ -43,7 +41,6 @@ document.addEventListener("DOMContentLoaded", function () {
     navOverlay.style.bottom = "";
     navOverlay.style.height = "";
     navOverlay.style.overflowY = "";
-    body.style.overflow = "";
   }
 
   if (menuToggle) {
@@ -72,17 +69,17 @@ document.addEventListener("DOMContentLoaded", function () {
   });
 
   window.addEventListener("resize", function () {
-    if (menuToggle && menuToggle.checked) positionOverlay();
+    if (menuToggle && menuToggle.checked) setOverlayToHero();
   });
 
   window.addEventListener("orientationchange", function () {
-    if (menuToggle && menuToggle.checked) setTimeout(positionOverlay, 50);
+    if (menuToggle && menuToggle.checked) setTimeout(setOverlayToHero, 50);
   });
 
   window.addEventListener(
     "scroll",
     function () {
-      if (menuToggle && menuToggle.checked) positionOverlay();
+      if (menuToggle && menuToggle.checked) setOverlayToHero();
     },
     { passive: true }
   );

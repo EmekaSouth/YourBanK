@@ -3,8 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="author" content="Alexander South and Miracle UG" />
-    <meta name="description" content="This is the Careers page for the YourBanK
-    website" />
+    <meta
+      name="description"
+      content="This is the Sign Up page for the YourBanK
+    website"
+    />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/css/header.css" />
     <link rel="stylesheet" href="assets/css/auth.css" />
@@ -28,11 +31,22 @@
         <!-- Nav-Bar Section -->
 
         <nav class="navbar">
+          <input type="checkbox" id="menu-toggle" class="menu-toggle" />
+          <label for="menu-toggle" class="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+          </label>
           <div class="nav-links">
+            <label for="menu-toggle" class="close-btn" aria-label="Close menu"
+            >&times;</label
+          >
             <a href="home.html">Home</a>
             <a href="career.html">Careers</a>
             <a href="about.html">About</a>
             <a href="security.html">Security</a>
+            <a href="signup.html" class="mobile-signup-btn">Sign Up</a>
+            <a href="login.html" class="mobile-login-btn">Login</a>
           </div>
         </nav>
 
@@ -112,7 +126,7 @@
         </div>
         <div class="testimonial-container">
           <div class="t-btns">
-            <img src="assets/svg/Home-Testimonial_Button-left.svg" alt="" / class="testimonial-left-btn">
+            <img src="assets/svg/Home-Testimonial_Button-left.svg" alt=""  class="testimonial-left-btn">
           </div>
           <div class="testimonial-container-1">
             <!-- Testimonial Card 1-->
@@ -167,7 +181,7 @@
           </div>
 
           <div class="t-btns">
-            <img src="assets/svg/Home-Testimonial-button-right.svg" alt="" / class="testimonial-right-btn">
+            <img src="assets/svg/Home-Testimonial-button-right.svg" alt="" class="testimonial-right-btn">
           </div>
         </div>
       </section>

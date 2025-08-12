@@ -106,6 +106,10 @@ body.menu-open {
 /* Start of Media Queries */
 
 @media screen and (max-width: 767px) {
+  html,
+  body {
+    overflow-x: hidden;
+  }
   .header {
     flex-direction: column;
     display: flex;

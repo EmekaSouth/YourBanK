@@ -68,3 +68,49 @@
   margin-left: 30rem;
   position: absolute;
 }
+
+@media screen and (max-width: 767px) {
+  .hero-wrapper {
+    margin-bottom: -100px;
+    width: calc(100% - 32px);
+    height: 645px;
+  }
+
+  .hero-content {
+    margin-top: 230px;
+    width: calc(100% - 25px);
+    height: 365px;
+    right: 11px;
+    border-radius: 20px;
+  }
+
+  .hero-content h3 {
+    width: 281px;
+    font-size: 28px;
+    line-height: 130%;
+    text-align: center;
+    margin-bottom: -30px;
+    margin-top: -30px;
+    margin-left: -20px;
+  }
+
+  .hero-content p {
+    width: calc(100% - -55px);
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+    margin-left: -30px;
+  }
+
+  .hero-abstract {
+    width: calc(100% - 159px);
+    top: -30px;
+    left: 160px;
+  }
+
+  .hero-img {
+    width: calc(100% - 30px);
+    margin-left: -1.5rem;
+    margin-top: -30px;
+  }
+}

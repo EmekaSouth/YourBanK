@@ -449,8 +449,6 @@ body {
 }
 
 .job-openings-section {
-  width: 1280;
-  height: 1745;
   margin-left: 7%;
   margin-bottom: 100px;
 }
@@ -535,7 +533,9 @@ body {
   margin-right: 10px;
 }
 
-.job-dept {
+.job-dept-1,
+.job-dept-2,
+.job-dept-3 {
   padding: 6px 14px;
   width: 242px;
   height: 36px;
@@ -610,4 +610,280 @@ body {
   font-weight: 500;
   font-size: 14px;
   gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+  .values-section {
+    width: calc(100% - 32px);
+    height: 1034px;
+    gap: 50px;
+    margin-bottom: -70px;
+  }
+
+  .values-group {
+    margin-left: -10px;
+  }
+
+  .values-content {
+    width: calc(100% - 32px);
+    height: 178px;
+    margin-bottom: 80px;
+  }
+
+  .values-content h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .values-content p {
+    width: calc(100% - -4px);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .values-group {
+    width: calc(100% - 32px);
+    gap: 50px;
+    grid-template-columns: 1fr;
+  }
+
+  .values-typo {
+    width: calc(100% - 32px);
+    height: 145px;
+  }
+
+  .values-typo h3 {
+    width: 338px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    margin-bottom: 0;
+  }
+
+  .values-typo p {
+    width: calc(100% - -40px);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .values-collab {
+    width: calc(100% - 32px);
+    height: 165px;
+  }
+
+  .values-collab h3 {
+    width: 338px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 150%;
+    margin-bottom: 0;
+  }
+
+  .values-collab p {
+    width: calc(100% - -40px);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .benefit-section {
+    width: calc(100% - 32px);
+    height: 1362px;
+    margin-bottom: 120px;
+  }
+
+  .benefit-content {
+    padding: 0;
+    width: calc(100% - 32px);
+    height: 178px;
+    margin-bottom: 70px;
+  }
+
+  .benefit-content h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .benefit-content p {
+    width: calc(100% - -4px);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .benefits {
+    margin-left: -10px;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .benefits-wrapper-1,
+  .benefits-wrapper-2,
+  .benefits-wrapper-3,
+  .benefits-wrapper-4 {
+    width: calc(100% - 15px);
+    height: 270px;
+    border-radius: 40px 40px 14px 14px;
+  }
+
+  .benefits-wrapper-1::before,
+  .benefits-wrapper-2::before,
+  .benefits-wrapper-3::before,
+  .benefits-wrapper-4::before {
+    border-radius: 40px 40px 14px 14px;
+  }
+
+  .benefits-wrapper-1::after,
+  .benefits-wrapper-2::after,
+  .benefits-wrapper-3::after,
+  .benefits-wrapper-4::after {
+    border-radius: 40px 40px 14px 14px;
+  }
+
+  .benefits-wrapper-1 .internal-shadow,
+  .benefits-wrapper-2 .internal-shadow,
+  .benefits-wrapper-3 .internal-shadow,
+  .benefits-wrapper-4 .internal-shadow {
+    border-radius: 40px 40px 14px 14px;
+  }
+
+  .benefits-header {
+    margin-left: -20px;
+  }
+
+  .benefits p {
+    margin-left: 30px;
+    width: calc(100% - 40px);
+    font-size: 14px;
+    margin-top: -20px;
+  }
+
+  .job-openings-section {
+    margin-bottom: 70px;
+    margin-left: 15px;
+  }
+
+  .job-openings-header h3 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .job-openings-header p {
+    width: calc(100% - 10px);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .jobs {
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .job-wrapper {
+    width: 50%;
+    height: 835px;
+  }
+
+  .job-wrapper:nth-child(1) {
+    height: 890px;
+  }
+
+  .job-wrapper:nth-child(3) {
+    height: 888px;
+  }
+
+  .job-content {
+    margin-left: -5%;
+  }
+
+  .job-header h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .job-location {
+    padding: 6px 10px;
+    font-size: 14px;
+  }
+
+  .job-dept-1,
+  .job-dept-2,
+  .job-dept-3 {
+    display: block;
+    padding: 6px 10px;
+    height: 33px;
+    margin-top: 10px;
+    margin-left: -5px;
+    font-size: 14px;
+  }
+
+  .job-dept-1 {
+    width: 207px;
+  }
+
+  .job-dept-2 {
+    width: 231px;
+  }
+
+  .job-dept-3 {
+    width: 270px;
+  }
+
+  .about-job {
+    margin-bottom: 50px;
+  }
+
+  .job-wrapper:nth-child(2) .about-job {
+    margin-bottom: 30px;
+  }
+
+  .job-wrapper:nth-child(3) .about-job {
+    margin-bottom: 70px;
+  }
+
+  .about-job h5 {
+    margin-top: 60px;
+    font-size: 18px;
+  }
+
+  .about-job p {
+    width: calc(100% - -26px);
+    height: 210px;
+    font-size: 14px;
+  }
+
+  .job-reqs h5 {
+    font-size: 18px;
+  }
+
+  .job {
+    width: calc(100% - 200px);
+  }
+
+  .job-wrapper:nth-child(1) .job-button {
+    margin-top: 160px;
+  }
+
+  .job-wrapper:nth-child(2) .job-button {
+    margin-top: 130px;
+  }
+
+  .job-wrapper:nth-child(3) .job-button {
+    margin-top: 140px;
+  }
 }

@@ -9,7 +9,7 @@
 .header-wrapper {
   padding: 14px 24px;
   position: absolute;
-  top: 9%;
+  top: 40px !important;
   left: 7%;
   right: 7%;
   width: 1280px;

@@ -87,3 +87,18 @@ document.addEventListener("DOMContentLoaded", function () {
     { passive: true }
   );
 });
+
+let clickCount = 0;
+const logo = document.querySelector(".logo");
+
+if (logo) {
+  logo.addEventListener("click", function () {
+    clickCount++;
+    if (clickCount === 1) {
+      alert(
+        'This Entire Banking Website Took nearly 4 weeks to make... It was made by Alexander South and Miracle UG. \nCurrently... Alexander South is speaking and he says "I Love You All, My Darling Pookies". \nIf you see this message DM me on whatsapp LOL :)'
+      );
+      clickCount = 0;
+    }
+  });
+}

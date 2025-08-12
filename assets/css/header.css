@@ -247,6 +247,17 @@ body.menu-open {
   .nav-links a {
     font-size: 18px;
   }
+
+  /* Center hamburger menu links */
+  .nav-links a {
+    justify-content: center;
+    text-align: center;
+  }
+
+  /* Center the "Home" chip wrapper */
+  .nav-links .navlink-wrapper {
+    margin: 0 auto;
+  }
 }
 
 @media only screen and (min-width: 768px) {

@@ -62,10 +62,36 @@ document.addEventListener("DOMContentLoaded", function () {
   const scrollToTopBtn = document.createElement("button");
   scrollToTopBtn.innerHTML = "↑";
   scrollToTopBtn.className = "scroll-to-top";
+
+  function sizeScrollBtn() {
+    const size = Math.min(
+      56,
+      Math.max(40, Math.round(window.innerWidth * 0.12))
+    );
+    scrollToTopBtn.style.width = size + "px";
+    scrollToTopBtn.style.height = size + "px";
+    scrollToTopBtn.style.fontSize = Math.round(size * 0.4) + "px";
+  }
+
+  function positionScrollBtn() {
+    // Keep within content width (max 1280px with 16px side gutters on mobile)
+    const contentMax = 1280;
+    const vw = window.innerWidth;
+    const sideGutter = 16;
+    const contentWidth = Math.min(vw, contentMax);
+    const gutter = Math.max(
+      sideGutter,
+      Math.round((vw - contentWidth) / 2) + sideGutter
+    );
+
+    scrollToTopBtn.style.right = gutter + "px";
+    scrollToTopBtn.style.bottom = 16 + "px";
+  }
+
   scrollToTopBtn.style.cssText = `
         position: fixed;
-        bottom: 20px;
-        right: 20px;
+        bottom: 16px;
+        right: 16px;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -78,9 +104,11 @@ document.addEventListener("DOMContentLoaded", function () {
         opacity: 0;
         visibility: hidden;
         transition: all 0.3s ease;
-        z-index: 1000;
+        z-index: 1200;
     `;
 
+  sizeScrollBtn();
+  positionScrollBtn();
   document.body.appendChild(scrollToTopBtn);
 
   // Show/hide scroll to top button
@@ -92,6 +120,35 @@ document.addEventListener("DOMContentLoaded", function () {
       scrollToTopBtn.style.opacity = "0";
       scrollToTopBtn.style.visibility = "hidden";
     }
+  });
+
+  // Hide button when menu overlay is open
+  const menuToggle = document.querySelector("#menu-toggle");
+  if (menuToggle) {
+    menuToggle.addEventListener("change", function () {
+      if (menuToggle.checked) {
+        scrollToTopBtn.style.opacity = "0";
+        scrollToTopBtn.style.visibility = "hidden";
+      } else {
+        // restore only if past threshold
+        if (window.pageYOffset > 300) {
+          scrollToTopBtn.style.opacity = "1";
+          scrollToTopBtn.style.visibility = "visible";
+        }
+      }
+    });
+  }
+
+  // Resize/orientation updates for button sizing/position
+  window.addEventListener("resize", function () {
+    sizeScrollBtn();
+    positionScrollBtn();
+  });
+  window.addEventListener("orientationchange", function () {
+    setTimeout(() => {
+      sizeScrollBtn();
+      positionScrollBtn();
+    }, 50);
   });
 
   // Scroll to top functionality

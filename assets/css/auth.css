@@ -29,11 +29,12 @@ body {
 }
 
 .hero-wrapper{
+  justify-content: center;
   position: relative;
   width: 1064px;
   height: 711px;
   top: 153px;
-  left: 188px;
+  left: 200px;
   padding: 80px 200px;
   border-radius: 16px;
   border: 1px solid #262626;
@@ -49,8 +50,8 @@ body {
   right: 0;
   bottom: 0;
   object-fit: cover;
-   mix-blend-mode: overlay; 
-  opacity: 30%;  
+  mix-blend-mode: overlay; 
+  opacity: 10%;  
   pointer-events: none;
 }
 
@@ -84,7 +85,7 @@ body {
   height: 20px;
   font-weight: 300;
   font-size: 16px;
-  line-height: 100%;
+  line-height: 20px;
   letter-spacing: 0%;
   color:#BFBFBF;
 }

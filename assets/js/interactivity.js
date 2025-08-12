@@ -2,7 +2,6 @@
 // Handles common interactive features across all pages
 
 document.addEventListener("DOMContentLoaded", function () {
-
   // Active navigation highlighting
   const currentPage = window.location.pathname.split("/").pop() || "home.html";
   const navLinks = document.querySelectorAll(".nav-links a");
@@ -84,7 +83,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   document.body.appendChild(scrollToTopBtn);
 
-  // Show/hide scroll to top button 
+  // Show/hide scroll to top button
   window.addEventListener("scroll", function () {
     if (window.pageYOffset > 300) {
       scrollToTopBtn.style.opacity = "1";

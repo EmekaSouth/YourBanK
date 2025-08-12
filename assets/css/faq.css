@@ -1,7 +1,7 @@
 .faq-section {
   width: 1279px;
   min-height: 810px;
-  margin-left: 85;
+  margin-left: 7%;
   margin-bottom: 100px;
   transition: all 0.5s ease;
 }
@@ -170,4 +170,86 @@ a {
 
 .faq-section.expanded {
   min-height: 1200px;
+}
+
+@media screen and (max-width: 767px) {
+  .faq-section {
+    width: calc(100% - 32px);
+    margin-left: 15px;
+    margin-bottom: -10px;
+  }
+
+  .faq-sect-header h2 {
+    width: 100%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .faq-sect-header p,
+  a {
+    width: calc(100% - -4px);
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .horizontal-border::after {
+    width: calc(100% - -5px);
+  }
+
+  .faqs {
+    grid-template-columns: 1fr;
+  }
+
+  .faq-box {
+    width: calc(100% - -1px);
+    height: 362px;
+  }
+
+  .faq-box:nth-child(1) {
+    height: 362px;
+  }
+
+  .faq-box:nth-child(2) {
+    height: 430px;
+  }
+
+  .faq-box:nth-child(3) {
+    height: 380px;
+  }
+
+  .faq-box:nth-child(4) {
+    height: 400px;
+  }
+
+  .faq-box:nth-child(6),
+  .faq-box:nth-child(7) {
+    height: 265px;
+  }
+
+  .faq-box:nth-child(8) {
+    height: 285px;
+  }
+
+  .faq-box:nth-child(9) {
+    height: 260px;
+  }
+
+  .faq-content {
+    margin-top: -5px;
+    margin-left: -10px;
+  }
+
+  .faq-title {
+    width: calc(100% - -5px);
+    height: 46px;
+    line-height: 150%;
+  }
+
+  .faq-text {
+    width: calc(100% - -5px);
+  }
 }

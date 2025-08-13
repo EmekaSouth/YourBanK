@@ -120,3 +120,72 @@ body {
   font-size: 16px;
   line-height: 150%;
 }
+
+@media screen and (max-width: 767px) {
+  .sf-bg {
+    display: none;
+  }
+
+  .security-measures {
+    width: calc(100% - 32px);
+    margin: 0 auto 500px auto;
+    height: 980px;
+  }
+
+  .security-header {
+    margin-top: 200px;
+  }
+
+  .security-header h3 {
+    width: 27.5%;
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .security-header p {
+    width: 27.5%;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 150%;
+    text-align: center;
+  }
+
+  .security-features {
+    grid-template-columns: 1fr;
+    margin-top: 0;
+    justify-items: center;
+  }
+
+  .sc-feature {
+    width: calc(100% - 32px);
+    max-width: 550px;
+    height: 280px;
+    border-radius: 20px;
+    margin: 0 auto;
+  }
+
+  .sc-feature:nth-child(1),
+  .sc-feature:nth-child(3) {
+    margin: 0 auto;
+    justify-self: center;
+    place-self: center;
+  }
+
+  .sc-feature-header {
+    margin-left: -20px;
+    margin-top: -20px;
+  }
+
+  .sc-feature h5 {
+    font-size: 18px;
+  }
+
+  .sc-feature p {
+    width: 85%;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: -20px;
+  }
+}

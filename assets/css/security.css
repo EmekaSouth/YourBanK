@@ -137,7 +137,7 @@ body {
   }
 
   .security-header h3 {
-    width: 27.5%;
+    width: calc(100% - 882px);
     font-weight: 500;
     font-size: 28px;
     line-height: 150%;
@@ -145,7 +145,7 @@ body {
   }
 
   .security-header p {
-    width: 27.5%;
+    width: 30.5%;
     font-weight: 300;
     font-size: 14px;
     line-height: 150%;

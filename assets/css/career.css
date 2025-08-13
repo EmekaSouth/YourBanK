@@ -734,9 +734,16 @@ body {
   .benefits-wrapper-4 {
     width: calc(100% - 32px);
     max-width: 610px;
-    height: 270px;
+    height: 285px;
     border-radius: 40px 40px 14px 14px;
     margin: 0 auto;
+  }
+
+  .asphalt-img-1,
+  .asphalt-img-2,
+  .asphalt-img-3,
+  .asphalt-img-4 {
+    height: 280px;
   }
 
   .benefits-wrapper-1::before,

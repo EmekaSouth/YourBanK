@@ -168,7 +168,7 @@ body.menu-open {
     max-width: 100%;
     height: 100dvh;
     min-height: 100vh;
-    background: linear-gradient(2000deg, #333333, #caff33, #333333);
+    background: linear-gradient(1000deg, #333333, #caff33, #333333);
     flex-direction: column;
     justify-content: center;
     align-items: center;

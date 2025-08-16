@@ -231,14 +231,19 @@ body {
 }
 
 .home{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   width: 1280px;
   height: 868px;
   gap: 40px;
   margin-left: 110px;
   margin-top: 20px;
 }
+
+.case-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+}
+
 
 .cases-icon-div{
   width: 610px;
@@ -334,7 +339,7 @@ body {
   margin-bottom: 50px;
 }
 
-.Individual-pecentage{
+.Individual-percentage{
   width: 136.67px;
   height: 111px;
   gap: 5px;
@@ -382,6 +387,20 @@ body {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+}
+
+.business-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 60px;
+  margin-top: 50px;
+}
+
+.business-abstract{
+  position: absolute;
+  right: -0.5rem;
+  width: 224px;
+  height: 213px;
 }
 
 .business-header{
@@ -477,6 +496,7 @@ body {
   padding: 40px;
   gap: 10px;
   background-color: #1C1C1C;
+  position: relative;
 }
 
 .business-image{
@@ -645,4 +665,444 @@ body {
 
 @media screen and (max-width: 767px) {
 
+  .product-section {
+    width: 358px;
+    height: 1076px;
+    gap: 60px;
+    margin-top: 0;
+  }
+
+  .product-header {
+    width: 358px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+
+  .product-header-content {
+    width: 358px;
+    height: 115px;
+    gap: 10px;
+    margin-left: 4rem;
+  }
+
+  .product-header-content h2 {
+    width: 358px;
+    height: 42px;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+
+  .product-header-content p {
+    width: 358px;
+    height: 63px;
+    font-size: 14px;
+  }
+
+  .product-header-img {
+    margin-top: 0;
+    margin-left: 4rem;
+  }
+
+  .products {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 358px;
+    height: 818px;
+    
+  }
+
+  .products h5 {
+    width: 358px;
+    height: 30px;
+  }
+
+  .products p {
+    width: 338px;
+    height: 84px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .product-1, .product-2, .product-3 {
+    width: 358px;
+    height: 218px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .border {
+    width: 338px;
+    height: 0;
+    margin-top: 2rem;
+  }
+
+  .cases-section {
+    width: 358px;
+    height: 2362px;
+    margin-top: 90px;
+  }
+
+  .cases-header {
+    width: 358px;
+    height: 115px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-right: 0;
+    margin-bottom: 1rem;
+  }
+
+  .cases-content {
+    margin-left: 5rem;
+  }
+
+  .cases-header h3 {
+    width: 358px;
+    height: 42px;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .cases-header p {
+    width: 358px;
+    height: 63px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .home {
+   width: 358px;
+    height: 2187px;
+    align-items: center;
+    margin-left: 2.5rem;
+    gap: 30px;
+  }
+
+  .case-wrapper {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin-top: 6rem;
+  }
+
+  .case-abstract {
+    width: 118px;
+    height: 112px;
+    left: 34px;
+  }
+
+  .cases-icon-div {
+    width: 358px;
+    height: 370px;
+    padding: 20px;
+    gap: 10px;
+  }
+
+  .cases-icon {
+    width: 154px;
+    height: 160px;
+    padding: 20px 14px 20px 14px;
+    gap: 14px;
+  }
+
+  .cases-icon p {
+    width: 126px;
+    height: 42px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .business-wrapper {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 30px;
+  }
+
+  .individual-section {
+    width: 358px;
+    height: 663px;
+    gap: 50px;
+  }
+
+  .Individual-header {
+    width: 358px;
+    height: 145px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .Individual-header h3 {
+    width: 358px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .Individual-header p {
+    width: 358px;
+    height: 105px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .Individual-number {
+    width: 358px;
+    height: 369px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  .Individual-percentage {
+    width: 258px;
+    height: 83px;
+    gap: 2px;
+  }
+
+  .Individual-percentage h3 {
+    width: 258px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .Individual-percentage p {
+    width: 258px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+
+  }
+
+  .Individual-line {
+    width: 258px;
+  }
+
+  .individual-button {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-left: 7rem;
+  }
+
+  .business-icon {
+    width: 358px;
+    height: 370px;
+    gap: 10px;
+    padding: 20px;
+  }
+
+  .business-abstract {
+    width: 118px;
+    height: 112px;
+    transform: rotate(90deg);
+    left: -10px;
+    top: -20px;
+  }
+
+  .business-image {
+    width: 154px;
+    height: 160px;
+    padding: 20px 14px;
+    gap: 14px;
+  }
+
+  .business-image p {
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .business-header {
+    width: 358px;
+    height: 684px;
+    gap: 50px;
+  }
+
+  .business-content {
+    width: 358px;
+    height: 166px;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .business-content h3 {
+    width: 358px;
+    height: 30px;
+    font-size: 20px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .business-content p {
+    width: 358px;
+    height: 126px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .business-percentage {
+    width: 358px;
+    height: 369px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .business-flow {
+    width: 258px;
+    height: 83px;
+    gap: 2px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .business-flow h3 {
+    width: 258px;
+    height: 60px;
+    font-size: 40px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .business-flow p {
+    width: 258px;
+    height: 21px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .business-line {
+    width: 258px;
+    border: 1px dashed 10,10 #262626;
+  }
+
+  .business-learn {
+    margin-top: 10rem;
+    margin-left: 7rem;
+  }
+
+  .features-section {
+    width: 366px;
+    height: 1182px;
+    gap: 50px;
+    margin-top: 15rem;
+  }
+
+  .features-header {
+    width: 366px;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+     text-align: center;
+    gap: 10px;
+    padding-right: 0;
+  }
+
+  .features-header h3 {
+    width: 366px;
+    height: 42px;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0%;
+    margin-bottom: 0;
+  }
+
+  .features-header p {
+    width: 366px;
+    height: 84px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .features-container {
+    width: 366px;
+    height: 996px;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .features-wrapper {
+    width: 366px;
+    height: 89px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 20px;
+  }
+
+  .features-button-1 {
+    width: 144px;
+    height: 49px;
+  }
+
+  .features-button {
+    width: 140px;
+    height: 49px;
+  }
+
+  .features-container-1 {
+    width: 366px;
+    height: 887px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .features-wrapper-1 {
+    width: 366px;
+    height: 212px;
+    padding: 30px;
+    gap: 20px;
+  }
+
+  .features-span {
+    width: 306px;
+    height: 27px;
+  }
+
+  .features-wrapper-1 p {
+    width: 306px;
+    height: 105px;
+    font-size: 14px;
+    line-height: 150%;
+    letter-spacing: 0-6%;
+  }
+  
 }

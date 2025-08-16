@@ -158,3 +158,52 @@
   letter-spacing: 0%;
   color: #caff33;
 }
+
+
+@media screen and (max-width: 767px) {
+  
+
+
+  .testimonial-section {
+    width: 358px;
+    height: 616px;
+    gap: 40px;
+    margin-bottom: 0;
+  }
+
+  .testimonial-header {
+    width: 358px;
+    height: 221px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    margin-bottom: 0;
+  }
+
+  .testimonial-header-1 {
+    width: 358px;
+    height: 138px;
+    gap: 10px;
+  }
+
+  .testimonial-header-1 h3 {
+    width: 358px;
+    height: 42px;
+    font-size: 28px;
+    line-height: 150%;
+    letter-spacing: 0%;
+  }
+
+  .testimonial-header-1 p {
+    width: 358px;
+    height: 84px;
+  }
+
+  .testimonial-tabs img {
+    margin-top: 0;
+  }
+
+
+}

@@ -33,6 +33,9 @@ document.addEventListener("DOMContentLoaded", function () {
   // Button hover effects
   const buttons = document.querySelectorAll("a[href], button");
   buttons.forEach((button) => {
+    // Skip password toggle buttons
+    if (button.classList.contains("password-toggle")) return;
+
     button.addEventListener("mouseenter", function () {
       this.style.transform = "translateY(-2px)";
       this.style.transition = "transform 0.3s ease";

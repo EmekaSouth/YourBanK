@@ -162,11 +162,10 @@
   }
 
   .open-acct {
-    width: 300px;
-    display: inline-flex;
+    width: 100% !important;
+    display: inline;
     align-items: center;
     justify-content: center;
-    padding: 14px 24px !important;
     font-size: 14px;
   }
 }

@@ -122,7 +122,7 @@ body {
 .product-header-content h2 {
   width: 831px;
   height: 57px;
-  color: #FFFFFF;
+  color: #ffffff;
   font-size: 38px;
   font-weight: 500;
   line-height: 150%;
@@ -134,7 +134,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 150%;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
 .product-header-img {
@@ -156,7 +156,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
@@ -164,7 +164,7 @@ body {
   font-weight: 300;
   font-size: 16px;
   line-height: 150%;
-  color: #B3B3B3;
+  color: #b3b3b3;
   width: 373px;
 }
 
@@ -175,7 +175,9 @@ body {
   align-items: center;
 }
 
-.product-1, .product-2, .product-3 {
+.product-1,
+.product-2,
+.product-3 {
   width: 373px;
   height: 262px;
   display: flex;
@@ -189,17 +191,17 @@ body {
   height: 285px;
 }
 
-.cases-section{
+.cases-section {
   width: 1280px;
   height: 457px;
 }
 
-.cases-content{
+.cases-content {
   margin-left: 110px;
   margin-top: 60px;
 }
 
-.cases-header{
+.cases-header {
   width: 1280px;
   height: 91px;
   gap: 10px;
@@ -207,18 +209,18 @@ body {
   margin-bottom: 3rem;
 }
 
-.cases-header h3{
+.cases-header h3 {
   font-weight: 500;
   font-style: medium;
   font-size: 38px;
   line-height: 150%;
   letter-spacing: 0%;
-  color:#CAFF33 ;
+  color: #caff33;
   width: 1030px;
   height: 57px;
 }
 
-.cases-header p{
+.cases-header p {
   width: 1030px;
   height: 24px;
   font-weight: 300;
@@ -226,11 +228,10 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #B3B3B3;
- 
+  color: #b3b3b3;
 }
 
-.home{
+.home {
   width: 1280px;
   height: 868px;
   gap: 40px;
@@ -244,11 +245,10 @@ body {
   gap: 60px;
 }
 
-
-.cases-icon-div{
+.cases-icon-div {
   width: 610px;
   height: 414px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   border-radius: 20px;
   padding: 40px;
   gap: 14px;
@@ -256,14 +256,14 @@ body {
   grid-template-columns: 1fr 1fr;
 }
 
-.cases-icon{
+.cases-icon {
   width: 260px;
   height: 174px;
   border-radius: 12px;
   border: 1px solid #262626;
   padding: 24px;
   gap: 24px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -273,12 +273,12 @@ body {
   margin-top: -5px;
 }
 
-.cases-icon img{
+.cases-icon img {
   width: 64px;
   height: 64px;
 }
 
-.cases-icon p{
+.cases-icon p {
   width: 212px;
   height: 48px;
   font-weight: 400;
@@ -286,31 +286,31 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.case-abstract{
+.case-abstract {
   position: absolute;
   width: 224px;
   height: 213px;
   left: 100px;
 }
 
-.individual-section{
+.individual-section {
   width: 610px;
   height: 405px;
   gap: 50px;
   display: flex;
 }
 
-.Individual-header{
+.Individual-header {
   width: 610px;
   height: 145px;
   gap: 10px;
   margin-bottom: 50px;
 }
 
-.Individual-header h3{
+.Individual-header h3 {
   width: 610px;
   height: 39px;
   font-weight: 500;
@@ -318,20 +318,20 @@ body {
   font-size: 26px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.Individual-header p{
+.Individual-header p {
   width: 610px;
   height: 96px;
   font-weight: 300;
   font-style: light;
   font-size: 16px;
   line-height: 150%;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
-.Individual-number{
+.Individual-number {
   width: 610px;
   height: 111px;
   display: flex;
@@ -339,13 +339,13 @@ body {
   margin-bottom: 50px;
 }
 
-.Individual-percentage{
+.Individual-percentage {
   width: 136.67px;
   height: 111px;
   gap: 5px;
 }
 
-.Individual-percentage h3{
+.Individual-percentage h3 {
   width: 136.67px;
   height: 60px;
   font-weight: 500;
@@ -353,35 +353,35 @@ body {
   font-size: 40px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #CAFF33;
+  color: #caff33;
 }
 
-.Individual-percentage p{
+.Individual-percentage p {
   width: 140px;
   height: 46px;
   font-weight: 300;
   font-size: 15px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
-.Individual-line{
+.Individual-line {
   width: 111px;
   border: 1px dashed #262626;
 }
 
-.individual-button{
+.individual-button {
   width: 118px;
   height: 49px;
   border-radius: 82px;
   border: 1px solid #262626;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   font-size: 14px;
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
   display: flex;
   text-align: center;
   align-items: center;
@@ -389,49 +389,49 @@ body {
   cursor: pointer;
 }
 
-.business-wrapper{
+.business-wrapper {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 60px;
   margin-top: 50px;
 }
 
-.business-abstract{
+.business-abstract {
   position: absolute;
   right: -0.5rem;
   width: 224px;
   height: 213px;
 }
 
-.business-header{
+.business-header {
   width: 610px;
   height: 407px;
   gap: 50px;
 }
 
-.business-content{
+.business-content {
   gap: 10px;
 }
 
-.business-content h3{
+.business-content h3 {
   font-weight: 500;
   font-size: 26px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 16px;
 }
 
-.business-content p{
+.business-content p {
   font-weight: 300;
   line-height: 150%;
   letter-spacing: 0%;
   font-style: light;
   font-size: 16px;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
-.business-percentage{
+.business-percentage {
   display: flex;
   margin-top: 50px;
   width: 610px;
@@ -439,41 +439,41 @@ body {
   gap: 50px;
 }
 
-.business-flow{
+.business-flow {
   width: 136.67px;
   height: 113px;
 }
 
-.business-flow h3{
+.business-flow h3 {
   font-weight: 500;
   font-style: medium;
   font-size: 40px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #CAFF33;
+  color: #caff33;
   margin-bottom: 10px;
 }
 
-.business-flow p{
+.business-flow p {
   font-weight: 300;
   font-style: light;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #B3B3B3;
+  color: #b3b3b3;
   width: 136.67px;
   height: 48px;
 }
 
-.business-line{
+.business-line {
   border: 1px dashed #262626;
 }
 
-.business-learn{
+.business-learn {
   margin-top: 70px;
 }
 
-.business-learn a{
+.business-learn a {
   width: 118px;
   height: 49px;
   border-radius: 82px;
@@ -483,11 +483,11 @@ body {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
   cursor: pointer;
 }
 
-.business-icon{
+.business-icon {
   display: grid;
   grid-template-columns: 1fr 1fr;
   width: 610px;
@@ -495,35 +495,36 @@ body {
   border-radius: 20px;
   padding: 40px;
   gap: 10px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   position: relative;
 }
 
-.business-image{
+.business-image {
   width: 260px;
   height: 174px;
   border: 1px solid #262626;
   border-radius: 12px;
   padding: 24px;
   gap: 14px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   margin-top: -5px;
+  z-index: 2;
 }
 
-.business-image p{
+.business-image p {
   font-weight: 400;
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
   text-align: center;
 }
 
-.features-section{
+.features-section {
   width: 1280px;
   height: 649px;
   gap: 60px;
@@ -532,14 +533,14 @@ body {
   margin-bottom: 100px;
 }
 
-.features-header{
+.features-header {
   width: 1280px;
   height: 115px;
   padding-right: 250px;
   gap: 10px;
 }
 
-.features-header h3{
+.features-header h3 {
   width: 1030px;
   height: 57px;
   font-weight: 500;
@@ -547,15 +548,15 @@ body {
   font-size: 38px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
   margin-bottom: 15px;
 }
 
-.features-header h3 span{
-  color: #CAFF33;
+.features-header h3 span {
+  color: #caff33;
 }
 
-.features-header p{
+.features-header p {
   width: 1030px;
   height: 48px;
   font-weight: 300;
@@ -563,10 +564,10 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
-.features-container{
+.features-container {
   width: 1280px;
   height: 474px;
   margin-top: 4rem;
@@ -575,49 +576,49 @@ body {
   gap: 20px;
 }
 
-.features-wrapper{
+.features-wrapper {
   width: 245px;
   height: 267px;
   border-radius: 10px;
   padding: 40px;
   gap: 20px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
   display: flex;
   flex-direction: column;
 }
 
-.features-button-1{
+.features-button-1 {
   width: 167px;
   height: 49px;
   border-radius: 100px;
   border: 1px solid #262626;
   padding: 14px 20px 14px 20px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   gap: 10px;
   font-weight: 400;
   font-style: regular;
   font-size: 14px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #CAFF33;
+  color: #caff33;
 }
 
-.features-button{
+.features-button {
   width: 167px;
   height: 49px;
   border-radius: 100px;
   border: 1px solid #262626;
   padding: 14px 20px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   font-weight: 400;
   font-style: regular;
   font-size: 14px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.features-container-1{
+.features-container-1 {
   width: 1015px;
   height: 474px;
   display: grid;
@@ -625,17 +626,17 @@ body {
   gap: 20px;
 }
 
-.features-wrapper-1{
+.features-wrapper-1 {
   width: 497.5px;
   height: 227px;
   border-radius: 10px;
   border: 1px solid #262626;
   padding: 40px;
   gap: 24px;
-  background-color: #1C1C1C;
+  background-color: #1c1c1c;
 }
 
-.features-span{
+.features-span {
   width: 417.5px;
   height: 27px;
   display: flex;
@@ -643,16 +644,16 @@ body {
   margin-bottom: 20px;
 }
 
-.features-span h3{
+.features-span h3 {
   font-weight: 400;
   font-style: regular;
   font-size: 18px;
   line-height: 150%;
   letter-spacing: 0%;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 
-.features-wrapper-1 p{
+.features-wrapper-1 p {
   width: 417.5px;
   height: 96px;
   font-weight: 300;
@@ -660,16 +661,72 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: -0.6%;
-  color: #B3B3B3;
+  color: #b3b3b3;
 }
 
 @media screen and (max-width: 767px) {
+  .hero-section {
+    width: calc(100% - 32px);
+    height: 1076px;
+    gap: 60px;
+    padding: 0;
+    margin-top: 10px;
+
+    display: inline;
+  }
+
+  .hero-content {
+    margin-left: 10px;
+    margin-top: -230px;
+    text-align: center;
+    margin-bottom: 50px;
+    justify-content: center;
+  }
+
+  .hero-imgs {
+    width: calc(100% - 120px);
+    justify-content: center;
+    margin-bottom: 60px;
+  }
+
+  .hero-img-1 img {
+    width: calc(100% - 32px);
+    height: 500px;
+  }
+
+  .hero-img-2 img {
+    width: calc(100% - 32px);
+    height: 201px;
+  }
+
+  .hero-start-sect {
+    width: calc(100% - 32px);
+    margin-left: 3.6rem;
+  }
+
+  .hero-content h1 {
+    width: calc(100% - 32px);
+    font-size: 28px;
+    margin-left: 10px;
+  }
+
+  .hero-content p {
+    width: calc(100% - 32px);
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .open-acct {
+    width: calc(100% - 32px) !important;
+    display: inline !important;
+  }
 
   .product-section {
     width: 358px;
     height: 1076px;
     gap: 60px;
     margin-top: 0;
+    margin-left: -5px;
   }
 
   .product-header {
@@ -720,7 +777,6 @@ body {
     padding-right: 10px;
     width: 358px;
     height: 818px;
-    
   }
 
   .products h5 {
@@ -736,7 +792,9 @@ body {
     letter-spacing: 0%;
   }
 
-  .product-1, .product-2, .product-3 {
+  .product-1,
+  .product-2,
+  .product-3 {
     width: 358px;
     height: 218px;
     display: flex;
@@ -755,6 +813,8 @@ body {
     width: 358px;
     height: 2362px;
     margin-top: 90px;
+    margin-bottom: -420px;
+    margin-left: -5px;
   }
 
   .cases-header {
@@ -790,7 +850,7 @@ body {
   }
 
   .home {
-   width: 358px;
+    width: 358px;
     height: 2187px;
     align-items: center;
     margin-left: 2.5rem;
@@ -899,7 +959,6 @@ body {
     font-size: 14px;
     line-height: 150%;
     letter-spacing: 0%;
-
   }
 
   .Individual-line {
@@ -923,9 +982,6 @@ body {
   .business-abstract {
     width: 118px;
     height: 112px;
-    transform: rotate(90deg);
-    left: -10px;
-    top: -20px;
   }
 
   .business-image {
@@ -1007,7 +1063,7 @@ body {
 
   .business-line {
     width: 258px;
-    border: 1px dashed 10,10 #262626;
+    border: 1px dashed 10, 10 #262626;
   }
 
   .business-learn {
@@ -1019,7 +1075,7 @@ body {
     width: 366px;
     height: 1182px;
     gap: 50px;
-    margin-top: 15rem;
+    margin-left: 25px;
   }
 
   .features-header {
@@ -1028,7 +1084,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-     text-align: center;
+    text-align: center;
     gap: 10px;
     padding-right: 0;
   }
@@ -1104,5 +1160,4 @@ body {
     line-height: 150%;
     letter-spacing: 0-6%;
   }
-  
 }

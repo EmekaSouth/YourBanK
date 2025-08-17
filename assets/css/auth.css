@@ -231,15 +231,15 @@ body {
 @media screen and (max-width: 767px) {
   .hero-section {
     width: calc(100% - 32px);
-    height: 1034px;
+    height: auto;
     gap: 50px;
     margin-bottom: 70px;
-    margin-top: 90px;
+    margin-top: 150px;
   }
 
   .hero-wrapper {
     width: 100%;
-    height: auto 20px;
+    height: auto;
     top: 0;
     left: 0;
     padding: 30px;
@@ -253,26 +253,28 @@ body {
 
   .hero-text-container {
     margin-bottom: 60px;
+    width: 100%;
+    text-align: center;
   }
 
   .hero-text-container h3 {
-    width: calc(100% - 32px);
+    width: 100%;
     font-size: 28px;
     text-align: center;
-    margin-left: -150px;
+    margin: 0 auto;
+    margin-bottom: -25px;
   }
 
   .hero-text-container p {
-    width: 298px;
+    width: 100%;
     font-size: 14px;
     text-align: center;
-    margin-left: 10px;
-    margin-top: -25px;
+    margin: 0 auto;
   }
 
   .form {
     width: 298px;
-    height: 460px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 24px;
@@ -280,7 +282,7 @@ body {
 
   .form-container {
     width: 298px;
-    height: 132px;
+    height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -288,7 +290,7 @@ body {
   }
 
   .form-wrapper {
-    margin-left: -5px;
+    margin-left: -13px;
     grid-template-columns: 1fr;
   }
 
@@ -303,7 +305,7 @@ body {
     align-items: center;
     justify-content: center;
     width: 298px;
-    height: 259px;
+    height: auto;
     gap: 24px;
     padding-left: 0;
     padding-right: 0;
@@ -322,7 +324,7 @@ body {
 
   .form-container-2 {
     width: 298px;
-    height: 113px;
+    height: auto;
     display: flex;
     flex-direction: column;
     gap: 24px;

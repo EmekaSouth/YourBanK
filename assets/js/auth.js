@@ -136,7 +136,6 @@ function showNotification(message, type = "info") {
         max-width: 400px;
     `;
 
-  // Style inner content as a row and remove any default button background
   const content = notification.querySelector(".notification-content");
   content.style.cssText = `
         display: flex;
@@ -217,9 +216,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Wrap input for positioning the toggle
     const wrapper = document.createElement("div");
     wrapper.style.position = "relative";
-    wrapper.style.display = "inline-block";
+    wrapper.style.display = "block";
 
-    // Preserve input width and remove external margins that could affect centering
     const cs = window.getComputedStyle(input);
     wrapper.style.marginTop = cs.marginTop;
     wrapper.style.marginRight = cs.marginRight;
@@ -228,7 +226,6 @@ document.addEventListener("DOMContentLoaded", function () {
     input.style.margin = "0";
     input.style.display = "block";
 
-    // Insert wrapper before input, then move input inside
     input.parentNode.insertBefore(wrapper, input);
     wrapper.appendChild(input);
 

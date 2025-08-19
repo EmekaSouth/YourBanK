@@ -150,14 +150,18 @@
 @media screen and (max-width: 767px) {
   .footer {
     width: 100%;
-    padding: 40px 16px 24px 16px;
-    height: auto;
+    padding: 50px 16px 30px 16px;
+    height: 503px;
     margin-top: 80px;
+    gap: 30px;
   }
 
   .footer-line {
     max-width: 100%;
-    width: 100%;
+  }
+
+  .footer-nav {
+    margin-top: 1rem;
   }
 
   .footer-wrapper-1 {
